@@ -63,58 +63,147 @@
                 <h1>About Me</h1>
             </div>
 
-            <div class="container" id = "aboutmecontainer">
-                <div class = "aboutmesections">
-                    <h1>Hi!</h1>
-                    <p>
-                        My name is Jason. I'm currently a sophomore at the University of Southern California pursuing a B.S in Computer Science.
-                        Creating and perfecting a smooth and exciting user experience on a digital platform is my craft and I'm always excited to learn
-                        about new technologies to see how I better develop solutions. I'm also a musician and play as a keyboardist at my church
-                        (if you search my name on youtube you'll find me playing the piano, albeit I am a bit younger in the video). One of my favorite
-                        hobbies is finding interesting jazzy chord progressions and solos. Feel free to message me if you want to talk to me, or share any
-                        cool chords with me!  
-                    </p>
-                </div>
+            <div class="container-fluid" id = "aboutmecontainer">
+                <div class="row">
 
-                <div class = "aboutmesections">
-                    <h1 id= "aboutme_education">Education</h1>
-                    <image id = "usclogo" src = "https://media.licdn.com/mpr/mpr/shrink_200_200/p/6/005/02e/209/17d851c.png"></image>
-                    <p>University of Southern California</p>
-                    <p>Degree: Computer Science (B.S)</p>
-                    <p>Expected Graduation: 2020</p>
+                    <div class="col-md-6 col-lg-6">
+                        <div class = "aboutmesections">                        
+                            <h1>Hi!</h1>
+                            <image id="profilepic" src = "https://www.appointbetterboards.co.nz/Custom/Appoint/img/avatar-large.png"></image>
+                            <p>
+                                My name is Jason. I'm currently a sophomore at the University of Southern California pursuing a B.S in Computer Science.
+                                Creating and perfecting a smooth and exciting user experience on a digital platform is my craft and I'm always excited to learn
+                                about new technologies to see how I better develop solutions. I'm also a musician and play as a keyboardist at my church
+                                (if you search my name on youtube you'll find me playing the piano, albeit I am a bit younger in the video). One of my favorite
+                                hobbies is finding interesting jazzy chord progressions and solos. Feel free to message me if you want to talk to me, or share any
+                                cool chords with me!  
+                            </p>
+                        </div>
+
+                        <div class = "aboutmesections">
+                            <h1 id= "aboutme_education">Education</h1>
+                            <image id = "usclogo" src = "https://media.licdn.com/mpr/mpr/shrink_200_200/p/6/005/02e/209/17d851c.png"></image>
+                            <p>University of Southern California</p>
+                            <p>Degree: Computer Science (B.S)</p>
+                            <p>Expected Graduation: 2020</p>
+                        </div>                    
+                    </div>
+
+                    <div class = "col-md-6 col-lg-6">
+                        <div class = "aboutmesections">
+                            <h1 id= "aboutme_education">Interests</h1>
+                        </div>  
+                    </div>
+
                 </div>
-                
             </div>
         </section>
         
         <!--Skills section-->
         <section id="skillspg">
 
-        <div class = "title_headers">
-            <h1>Skills</h1>
-        </div>    
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-lg-12">
+            <div class = "title_headers">
+                <h1>Skills</h1>
+            </div>    
+            
+            <div class="container-fluid">
+                <div class = "row skills_row"> 
+                    <div class = "skill_col col-md-4 col-lg-4">
+                        <div class = "skill_item">
+                            <h2>Frontend</h2>
+                            <ul>
+                                <li><image class = "programming_logos"src ="http://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png"><h3>HTML</h3></image></li>
+                                <li><image class = "programming_logos"src ="https://maxcdn.icons8.com/Share/icon/Logos//css31600.png"><h3>CSS</h3></image></li>
+                                <li><image class = "programming_logos"src ="http://res.cloudinary.com/dr5ei3rt1/image/upload/v1500503920/Javascript-shield_grysg1.png"><h3>Javascript</h3></image></li>
+                                <li><image class = "programming_logos"src ="http://www.prismanimation.com/images/jquery.png"><h3>jQuery</h3></image></li>
+                                <li><image class = "programming_logos"src ="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-social-logo.png"><h3>Bootstrap</h3></image></li>
+                            </ul>
+                        </div>       
+                        <div class = "skill_item">
+                            <h2>Backend</h2>
+                            <ul>
+                                <li><image class = "programming_logos"src ="https://camo.githubusercontent.com/6c85b8e12a64c5d7150873d6d38c193a611e7fa8/687474703a2f2f636f64652d6d6176656e2e636f6d2f696d672f6e6f64652e706e67"><h3>Node.js</h3></image></li>
+                                <li><image class = "programming_logos"src ="https://camo.githubusercontent.com/fc61dcbdb7a6e49d3adecc12194b24ab20dfa25b/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67"><h3>Express.js</h3></image></li>
+                            </ul>                
+                        </div>                               
                     </div>
-                </div>
-            </div>
+
+                    <div class = "skill_col col-md-4 col-lg-4">
+                        <div class = "skill_item">
+                            <h2>Database</h2>
+                            <ul>
+                                <li><image class = "programming_logos"src ="https://agsft.com/wp-content/uploads/2016/02/nosql-net_logo_transparent.png"><h3>NoSQL</h3></image></li>                            
+                                <li><image class = "programming_logos"src ="https://www.freebsdnews.com/wp-content/uploads/mongodb.png"><h3>MongoDB</h3></image></li>
+                                <li><image class = "programming_logos"src ="http://www.erikasland.com/static/images/mongoose.png"><h3>Mongoose</h3></image></li>
+                            </ul>                            
+                        </div>       
+                        <div class = "skill_item">
+                            <h2>Programming</h2>
+                            <ul>
+                                <li><image class = "programming_logos"src ="http://freevector.co/wp-content/uploads/2009/07/c.png"><h3>C++</h3></image></li>
+                                <li><image class = "programming_logos"src ="https://camo.githubusercontent.com/bb5d3406f92cffc8a57c363da9c13ccaae2fe854/687474703a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f3230303070782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67"><h3>Python</h3></image></li>
+                                <li><image class = "programming_logos"src ="http://findicons.com/files/icons/1008/quiet/256/java.png"><h3>Java</h3></image></li>
+                            </ul>                            
+                        </div>                               
+                    </div> 
+
+                    <div class = "skill_col col-md-4 col-lg-4">
+                        <div class = "skill_item">
+                            <h2>Version Control</h2>
+                            <ul>
+                                <li><image class = "programming_logos"src ="https://git-scm.com/images/logos/logomark-orange@2x.png"><h3>Git</h3></image></li>
+                            </ul>                            
+                        </div>     
+
+                        <div class = "skill_item">
+                            <h2>Principles</h2>
+                            <ul>
+                                <li><image class = "programming_logos"src ="http://st-edmunds.eu/wp-content/uploads/2015/03/TDD-icon.png"><h3>Test-Driven Development</h3></image></li>
+                                <li><image class = "programming_logos"src ="https://s-media-cache-ak0.pinimg.com/originals/45/03/98/450398f4ff10d0253602b6a6d99419ed.png"><h3>Object Oriented Progrmaming</h3></image></li>
+                                <li><image class = "programming_logos"src ="https://docs.ubuntu.com/static/media/phone/testing-integration-c.png"><h3>Unit Testing</h3></image></li>
+                            </ul>                            
+                        </div>   
+                    </div>
+                </div>                     
         </section>
 
         <!--Projects section-->
         <section id="projectspg">
 
-        <div class = "title_headers">
-            <h1>Projects</h1>
-        </div>    
+            <div class = "title_headers">
+                <h1>Projects</h1>
+            </div>    
             
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-lg-12">
+            <div class="container-fluid">
+                <div class = "row"> 
+                    <div class = "skill_col col-md-4 col-lg-4">
+                        <div class = "skill_item">
+                            <p>Project 1</p>
+                        </div>       
+                        <div class = "skill_item">
+                            <p>Project 2</p>               
+                        </div>                               
                     </div>
-                </div>
-            </div>
+
+                    <div class = "skill_col col-md-4 col-lg-4">
+                        <div class = "skill_item">
+                            <p>Project 3</p>            
+                        </div>       
+                        <div class = "skill_item">
+                            <p>Project 4</p>                     
+                        </div>                               
+                    </div> 
+
+                    <div class = "skill_col col-md-4 col-lg-4">
+                        <div class = "skill_item">
+                            <p>Project 5</p>                        
+                        </div>     
+
+                        <div class = "skill_item">
+                            <p>Project 6</p>             
+                        </div>   
+                    </div>
+                </div>                     
         </section>
 
         <!--Resume section-->
@@ -140,10 +229,29 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-lg-12">
+                    <!-- Card Projects -->
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="img-responsive" src="https://wallpaperscraft.com/image/dachshund_dog_minimalism_animal_66187_1920x1200.jpg">
+                                <span class="card-title">Jason Hannanto</span>
+                            </div>
+                            
+                            <div class="card-content">
+                                <p>You can best contact me through my email. I'm usually connected to the internet, so you can expect a reply within 24 hours!</p>
+                                <h1>Email: Hannanto@usc.edu</h1>
+                            </div>
+                            
+                            <div class="card-action">
+                                <a target="_blank" href="https://gitlab.com/JasonHannanto"><i class ="fa fa-gitlab fa-3x icons" id = "gitlab_icon"></i></a>
+                                <a target="_blank" href="https://github.com/JasonHannanto"><i class ="fa fa-github fa-3x icons" id = "github_icon"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/jasonhannanto/"><i class ="fa fa-linkedin fa-3x icons" id = "linkedin_icon"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            
         </section>   
     </div>
     <!--wrapper end-->
