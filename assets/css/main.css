@@ -19,7 +19,7 @@ section {
 
 /* Navbar */
    .navbar {
-    padding-top:2em;
+    padding-top:1em;
     background: transparent;
     border:0;
     opacity: 0.8;
@@ -144,17 +144,22 @@ section {
 
     color: black;
     background: #EEEEEE; 
+    padding-bottom: 1em;    
 }
 
 #aboutmecontainer{
-    /* width: 30%; */
-    padding-top: 2em;
+    max-height: 70em;
+    overflow: hidden;
+}
+
+#aboutme_education{
+    
 }
 
 #profilepic{
     display: block;
     margin: auto;
-    width: 30%; 
+    width: 20%; 
     border: 1em solid white;
     border-radius: 50%;
     margin-bottom: 2em;
@@ -173,24 +178,17 @@ section {
 }
 
 .aboutmesections{
-    min-width: 20em;
-    padding: 2em;
-    /* border: 1px solid black; */
-    
+    min-width: 40em;
+    margin: 2em;
+    padding-top:1em;
 }
 
-.aboutmesections h1{
+.textmid {
     text-align: center;
-    margin-bottom: 0.5em;
-}
-
-#aboutme_education{
-    padding-bottom: 0.5em;
 }
 
 #usclogo{
     float: left;
-    /* margin-top: 2em; */
     margin-right: 2em;
     height: 8em;
     width: 8em;
@@ -205,12 +203,10 @@ section {
 }
 
 .skill_item{
-    margin: 1em; 
-    margin-bottom: 3em;
-    padding-top: 5px;
-    padding-bottom: 2.0em;    
+    margin-top: 2em;
+  margin-bottom: 2em;
     background-color: white;
-    max-width: 20em;
+    overflow: hidden;
 }
 .skill_item h2{
     text-align: center;
@@ -218,8 +214,6 @@ section {
 }
 
 .skill_col{
-
-    min-width: 20em;
     overflow:hidden;
 }
 
@@ -276,10 +270,6 @@ section .container-fluid {
 
 li {
     list-style: none;
-}
-
-.container-fluid .row{
-    padding: 5em;
 }
 
 /* Card Styling - Begin */
@@ -343,3 +333,28 @@ li {
   text-decoration: none;
 }
 /* Card Styling - End */
+
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.25em;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+div .container .row {
+    min-width: 50em;
+    overflow:hidden;
+}
