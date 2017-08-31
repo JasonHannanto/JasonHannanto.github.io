@@ -1,6 +1,6 @@
 body{
     /* background: linear-gradient(136deg, #1ad7c0, #8E44AD, #ff9b11, #1F3A93, #ddd8c6, #000000, #000000);  */
-    background: linear-gradient(136deg, #FBA100,#87D37C, #4484CE, #9B59B6, #EFEFEF, #000000, #000000);
+    background: linear-gradient(136deg, #FBA100,#87D37C, #4484CE, #9B59B6, #EFEFEF, #000000, #ECF0F1);
     
     background-size: 1200% 1200%; 
     -webkit-animation: AnimationName 70s ease infinite;
@@ -10,7 +10,6 @@ body{
     height: 100%;
 }
 
- 
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 7%}
     50%{background-position:100% 94%}
@@ -70,6 +69,16 @@ ul{
     transition: all 0.2s ease-in;
 }   
 
+    li{
+        cursor: pointer;
+    }
+
+    /* li:hover{
+        transition: all 1s;
+        background-color: red;
+    } */
+
+
 /* Navbar Links Div */
   #top-navbar-links {
     margin-right: 0px;
@@ -84,9 +93,10 @@ ul{
 	text-transform: uppercase;
 }  
 
-/* Logo */
+/* Logo - JH*/
   #logo-brand {
     color: white;
+    cursor: pointer;
 }  
 
 /* Contact Me Button */
@@ -113,10 +123,52 @@ ul{
   }
 /* ---------------------------- */
 
+/* ---------- Nav Button Hover Effect ---------- */
+
+.nav_btn {
+    position: relative;
+  }
+   .nav_btn:after {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 3px;
+  }
+   .nav_btn:hover:after {
+    width: 100%;
+  }
+  
+   .nav_btn {
+    transition: all 2s;
+  }
+  
+   .nav_btn:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+  }
+   .nav_btn:hover {
+    color: #fff;
+    z-index: 1;
+  }
+   .nav_btn:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+  }
+  /* ---------------------------- */
+
 /* ---------- Home Section ---------- */
-#homepage{
-
-
+#homepage div{
 }
 
 /* Homepage Jumbotron */
@@ -157,7 +209,7 @@ ul{
 
 
 /* ---------- About Me Section ---------- */
-#aboutme{
+#aboutpage{
     background-color: #1D1D1D;
     color: white;
     padding: 3.5em;
@@ -255,6 +307,10 @@ ul{
     display: block;
     margin: 0 auto;
 }
+
+.card-5 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
 /* ---------------------------- */
 
 /* ---------- Resume Section ---------- */
@@ -296,6 +352,5 @@ padding-bottom: 3em;
 }
 /* ---------------------------- */
 
-.card-5 {
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-}
+
+
