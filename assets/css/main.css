@@ -445,8 +445,7 @@ li {
 .resume_view {
     margin: 0 auto;
     display: table;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 6em;
     height: 1250px;
     width: 800px;
 }
