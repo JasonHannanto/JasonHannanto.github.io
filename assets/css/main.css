@@ -34,7 +34,7 @@ body{
 
 
 section{
-    min-width: 45em;
+    /*min-width: 45em;*/
     overflow: hidden;
 }
 
@@ -355,5 +355,10 @@ padding-bottom: 3em;
 }
 /* ---------------------------- */
 
-
+@media (max-width: 767px) {
+    .skill_item h4{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 3.1vw;
+    }
+}
 
