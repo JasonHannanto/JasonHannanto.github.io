@@ -168,16 +168,20 @@ ul{
   /* ---------------------------- */
 
 /* ---------- Home Section ---------- */
-#homepage div{
+#homepage {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Homepage Jumbotron */
 .jumbotron{
+    width: 100%;
     text-align: center;
     color: white;
     background-color: transparent;
-    vertical-align: middle;
-    padding-top: 27em;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
 }

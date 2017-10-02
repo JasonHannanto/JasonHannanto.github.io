@@ -30,13 +30,8 @@ function setScrollingEvent(){
 }   
 
 function init(){
-    
-    // On Doc ready -> set section heights to the viewport heights
-    vph = $(window).height();
-    $('#homepage').css('height', vph);
     /* affix the navbar after scrolling down */
     $(".navbar").affix({offset: {top: 10} });
-
     setScrollingEvent();
 }
 
