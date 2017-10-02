@@ -437,7 +437,7 @@ li {
 }
 
 #resumetitle {
-    background-color: #212121;
+    background-color: transparent;
     color: white;
     padding: 0.3em;
 }
