@@ -254,10 +254,17 @@ ul{
     padding-bottom: 2em;    
 }
 
+@media (max-width: 767px) {
+    #skillspage .row{
+        width: 100%;    
+    }
+}
+
 .skill_item{
     background-color: white;
     color: black;
-    margin: 1em; 
+    margin-top: 1em; 
+    margin-bottom: 1em; 
     padding: 1em;
     height: 27em;
     width: 100%;
@@ -344,7 +351,7 @@ ul{
     padding-top: 2em;
     padding-bottom: 2em;
     height: 1250px;
-    width: 800px;
+    width: 100%;
 }
 /* ---------------------------- */
 
