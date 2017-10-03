@@ -290,7 +290,6 @@ ul{
      padding: 0.1em; 
 }
 
-
 .skill_list_item{
 }
 
@@ -302,6 +301,11 @@ ul{
     width: 3em;
     margin-right: 0.5em;
     float: left;
+}
+
+#express_logo{
+    height: 1em;
+    margin: 1em 0.5em 1em 0
 }
 
 .skillcard_icons{
