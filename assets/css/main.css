@@ -115,6 +115,10 @@ ul{
     -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
 }  
 
+.navbar-inverse ul.navbar-nav li a.btn-link-3:hover {
+	background: #f4511e;
+}  
+
   .affix {
       top: 0;
       padding: 0;
