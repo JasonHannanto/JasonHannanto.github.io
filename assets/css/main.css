@@ -259,7 +259,7 @@ ul{
     color: black;
     margin: 1em; 
     padding: 1em;
-    height: 27em;
+    /*height: 27em;*/
     width: 100%;
     overflow: hidden;
 }
@@ -280,9 +280,9 @@ ul{
     float: left;
 }
 
-#front_end_card div{
+/*#front_end_card div{
     width: 50%;
-}
+}*/
 
 .skill_item_title{
     text-align: center;
