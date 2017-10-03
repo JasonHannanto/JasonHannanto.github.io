@@ -361,6 +361,14 @@ padding-bottom: 3em;
     margin: 0 auto;
     text-align: center;
 }
+
+.email-link {
+    color: white;
+}
+
+.email-link:hover {
+    color: white;
+}
 /* ---------------------------- */
 
 
