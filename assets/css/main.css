@@ -358,8 +358,8 @@ li {
     padding: 0.1em;
 }
 
-
 .skill_list_item {}
+
 
 .skill_col {}
 
@@ -370,8 +370,13 @@ li {
     float: left;
 }
 
-.skillcard_icons {
-    max-height: 3em;
+#express_logo{
+    height: 1em;
+    margin: 1em 0.5em 1em 0
+}
+
+.skillcard_icons{
+    max-height: 3em; 
     max-width: 3em;
     display: block;
     margin: 0 auto;
