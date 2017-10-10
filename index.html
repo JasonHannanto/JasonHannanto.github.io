@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jason Hannanto</title>
+
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- CSS link -->
@@ -23,7 +23,7 @@
   <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg " role="navigation" data-spy="affix" data-offset-top="100">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation" data-spy="affix" data-offset-top="100">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
@@ -42,7 +42,7 @@
                     <li><a class ="nav_btn skills_btn">Skills</a></li>
                     <li><a class ="nav_btn resume_btn">Resume</a></li>
                     <li><a class ="nav_btn contact_btn">Contact</a></li>
-                    <li><a class="btn btn-link-3 blog_btn" href="https://jasonhannantoblog.netlify.com/" target="_blank">Blog</a></li>
+                    <li><a class="btn-link-3" href="https://jasonhannantoblog.netlify.com/" target="_blank">Blog</a></li>
                     <!-- <li><a class ="nav_btn projects_btn">Projects</a></li> -->
                 </ul>
             </div>
@@ -105,7 +105,7 @@
                             <image class="skillcard_icons"src = "https://cdn1.iconfinder.com/data/icons/education-set-5/512/development-512.png"></image>
                             <h3 class ="skill_item_title">Backend</h3>
                             <div><image class = "programming_logos"src ="https://camo.githubusercontent.com/6c85b8e12a64c5d7150873d6d38c193a611e7fa8/687474703a2f2f636f64652d6d6176656e2e636f6d2f696d672f6e6f64652e706e67"></image><h4>Node.js</h4></div>
-                            <div><image class = "programming_logos"src ="https://camo.githubusercontent.com/fc61dcbdb7a6e49d3adecc12194b24ab20dfa25b/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67"></image><h4>Express.js</h4></div>
+                            <div><image id="express_logo" class = "programming_logos"src ="https://camo.githubusercontent.com/fc61dcbdb7a6e49d3adecc12194b24ab20dfa25b/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67"></image><h4>Express.js</h4></div>
                         </div>   
                     </div>
 
@@ -162,17 +162,22 @@
         </section>
 
         <section id="contactpage">
-                <div class="section_title">
+            <div class="row">
+                <div class="section-title col-md-12 text-center">
                     <h2>Contact Me</h2>
                 </div>
-
-                <div class ="container">
-                    <div class ="contact_content">
-                        <h4>You can best contact me by email. I'm usually connected to the internet so you can expect a reply within 24 hours!</h4>
-                        <h2>Email: Hannanto@usc.edu</h2>                    
-                    </div>  
-                </div>  
-        </section>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h4>You can best contact me by email. I'm usually connected to the internet so you can expect a reply within 24 hours!</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3><i class ="fa fa-envelope"></i>&nbsp;Email: Hannanto@usc.edu</h3>
+                </div>
+            </div>
+                </section>
 
     </div>  
     
