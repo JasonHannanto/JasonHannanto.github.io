@@ -403,15 +403,24 @@ li {
     padding: 0.3em;
 }
 
-.resume_view {
-    margin: 0 auto;
-    display: table;
-    padding-bottom: 6em;
-    height: 1250px;
-    width: 800px;
+#resumepage-document {
+    padding: 3.5em;
 }
 
+#resumepage-iframe-wrapper {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 70.71%;
+}
 
+#resumepage-iframe-wrapper iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* ---------------------------- */
 
