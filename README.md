@@ -5,11 +5,21 @@
 **Website Link**: (https://jasonhannanto.github.io/)
 
 ---
+# Portfolio Website
 
+My personal portfolio page, where I will be putting my projects, resume, as well as other related social links!
 
-**Hacktoberfest Contributions**
-So it's Hacktoberfest, and you get a free t-shirt for making 4 pull requests! 
-If anyone would love to help me out with an issue on my website I'd gladly 
-appreciate the generosity. Your help will definitely be credited and the
-issues I have shouldn't be too difficult to solve. 
----
+## Built With
+
+* HTML
+* CSS
+* Javascript
+* Bootstrap
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Thank you to Hacktober 2017 contributors helping me with some bugs I had encountered!
