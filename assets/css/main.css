@@ -1,6 +1,6 @@
 body {
     /* background: linear-gradient(136deg, #1ad7c0, #8E44AD, #ff9b11, #1F3A93, #ddd8c6, #000000, #000000);  */
-    background: linear-gradient(136deg, #FBA100, #87D37C, #4484CE, #9B59B6, #EFEFEF, #000000, #ECF0F1);
+    background: linear-gradient(136deg, #1F3A93,#4484CE,#1ad7c0, #ff9b11, #9B59B6, #EFEFEF, #000000, #ECF0F1);
 
     background-size: 1200% 1200%;
     -webkit-animation: AnimationName 70s ease infinite;
