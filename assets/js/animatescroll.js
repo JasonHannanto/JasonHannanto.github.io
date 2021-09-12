@@ -1,7 +1,5 @@
 /*
- * @build  : 20-07-2013
- * @author : Ram swaroop
- * @site   : Compzets.com
+LOADER 
  */
 (function($){
       
